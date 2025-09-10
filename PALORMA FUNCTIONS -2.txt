@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void oddoreven(int number){
+ if(number % 2 == 0)
+        printf("The given number is even");
+    else 
+    printf("the given number is odd");
+}
+int main() {
+    int number;
+    printf("enter a number:");
+    scanf("%d", &number);
+    
+    oddoreven(number);
+    return 0;
+}

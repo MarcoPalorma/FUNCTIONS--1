@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int add(int a, int b) {
+    return a + b;
+}
+int minus(int a, int b){
+    return a - b;
+}
+int divide(int a, int b){
+    return a / b;
+}
+int mult(int a, int b){
+    return a * b;
+}
+int main() {
+   int x = 10, y = 69;
+   int result = add(x,y);
+   int result1 = minus (x,y);
+   int result2 = divide (x,y);
+   int result3 = mult (x,y);
+   
+    printf("The Sum of X and Y = %d\n", result);
+    printf("The difference of X and Y = %d\n", result1);
+    printf("The quotient of X and Y = %d\n", result2);
+    printf("The product of X and Y = %d\n", result3);
+    return 0;
+}
